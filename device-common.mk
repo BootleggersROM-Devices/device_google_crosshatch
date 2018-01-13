@@ -121,3 +121,7 @@ PRODUCT_PACKAGES += \
 # whitelisted app
 PRODUCT_COPY_FILES += \
     device/google/crosshatch/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml
+
+# Privileged app permissions
+PRODUCT_COPY_FILES += \
+    device/google/crosshatch/privapp-permissions-crosshatch.xml:system/etc/permissions/privapp-permissions-crosshatch.xml
