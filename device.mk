@@ -478,6 +478,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sensors/hals.conf:vendor/etc/sensors/hals.conf
 
+
+
 # Default permission grant exceptions
 PRODUCT_COPY_FILES += \
     device/google/crosshatch/default-permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/default-permissions.xml
@@ -855,6 +857,10 @@ PRODUCT_COPY_FILES += \
 # powerstats HAL
 PRODUCT_PACKAGES += \
     android.hardware.power.stats@1.0-service.pixel
+
+# ModemService
+PRODUCT_COPY_FILES += \
+  device/google/crosshatch/whitelist_modemservice.xml:system/etc/sysconfig/whitelist_modemservice.xml
 
 # SurfaceFlinger
 
