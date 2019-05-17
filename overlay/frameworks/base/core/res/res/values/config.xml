@@ -463,4 +463,7 @@
     <bool name="config_swipe_up_gesture_default">false</bool>
     <!-- Whether or not swipe up gesture's opt-in setting is available on this device -->
     <bool name="config_swipe_up_gesture_setting_available">true</bool>
+
+    <!-- Allow automatic adjusting of the screen brightness while dozing in low power state. -->
+    <bool name="config_allowAutoBrightnessWhileDozing">false</bool>
 </resources>
