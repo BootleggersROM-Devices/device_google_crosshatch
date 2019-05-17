@@ -28,4 +28,6 @@
     <string name="config_featureFactory"
             translatable="false">com.google.android.settings.overlay.FeatureFactoryImpl</string>
 
+    <!-- Device specific doze package -->
+    <string name="config_customDozePackage">com.custom.ambient.display/com.custom.ambient.display.DozeSettings</string>
 </resources>
